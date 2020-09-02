@@ -143,6 +143,6 @@ button {
     margin: 0 0 50px 0;
     background-color: var(--focused-color);
     border: none;
-    box-shadow: 0 5px 0 var(--main-color);
+    box-shadow: 0 5px 0 var(--complimentary-color);
 }
 
