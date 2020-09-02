@@ -87,7 +87,7 @@ select {
 input:focus, select:focus, button:focus {
     outline: none;
     margin-bottom: 35px;
-    border: 5px solid var(--focused-color);
+    border-bottom: 5px solid var(--focused-color);
 }
 
 textarea {
