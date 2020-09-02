@@ -1,1 +1,1 @@
-# Survery Candyland
+# Survey Candyland
