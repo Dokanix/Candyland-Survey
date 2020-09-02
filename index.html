@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="survey">
+        <header>
+            <h1 id="title">Candyland Survey</h1>
+            <p id="description">we are doing our best!</p>
+        </header>
+        <form id="survey-form" method="POST">
+            <label for="name">name:</label>
+            <input placeholder="John Doe..." type="text" id="name">
+            <label for="email">email:</label>
+            <input placeholder="john@mail.com..." type="email" id="email">
+            <label for="number">age:</label>
+            <input autocomplete="off" placeholder="18" min="0" max="130" type="number" id="number">
+            <label for="dropdown">favorite candy:</label>
+            <select name="candy" id="dropdown">
+                <option value="lolipop">Lolipop</option>
+                <option value="snackbar">Snackbar</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="gummybear">Gummybears</option>
+            </select>
+            <div class="selectors">
+                <div class="gender">
+                    <p>gender:</p>
+                    <input type="radio" name="gender" id="male-input" value="male">
+                    <label for="male-input">male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female-input" value="female">
+                    <label for="female-input">female</label>
+                    <br>
+                </div>
+                <div class="allergies">
+                    <p>allergies:</p>
+                    <input type="checkbox" name="allergies" id="male-input" value="nuts">
+                    <label for="male-input">nuts</label>
+                    <br>
+                    <input type="checkbox" name="allergies" id="female-input" value="milk">
+                    <label for="female-input">milk</label>
+                    <br>
+                    <input type="checkbox" name="allergies" id="female-input" value="gluten">
+                    <label for="female-input">gluten</label>
+                    <br>
+                </div>
+            </div>
+            <label for="suggestions">suggestions:</label>
+            <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+            <button>Send</button>
+        </form>
+    </div>
+</body>
+</html>
