@@ -208,7 +208,8 @@ button:active {
 
 @media (max-width: 1100px) {
     .survey {
-        margin-top: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
